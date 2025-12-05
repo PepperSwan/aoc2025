@@ -50,6 +50,6 @@ while accessible:
     
     if new_grid == grid:
         accessible = False
-    grid = new_grid.copy()
+    grid = new_grid
 
 print('Part 2:', accessible_rolls)
